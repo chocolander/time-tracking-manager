@@ -8,3 +8,4 @@ Developers:
 Yunseon
 Elena
 Hyun
+Jung Soo
