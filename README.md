@@ -6,3 +6,4 @@ It should allow to block out time with sections, such as work, home, weekends.
 
 Developers:
 Yunseon Lee
+Elena
