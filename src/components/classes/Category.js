@@ -1,5 +1,8 @@
 class Category {
-    constructor(category, preferredTimebloc){
-        
+    constructor(category, preferredTimeblock){
+        this.category=category;
+        this.preferredTimeblock=preferredTimeblock;
     }
+    getName(){return this.cName};
+    
 }
