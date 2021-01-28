@@ -3,7 +3,8 @@ import './App.css';
 import { Button } from './components/classesLogginButtons/Button';
 import { HealthBtn } from './components/classesLogginButtons/HealthBtn';
 import { WorkBtn } from './components/classesLogginButtons/WorkBtn'
-import { Navbar } from './components/Navbar/Navbar';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -18,8 +19,7 @@ function App() {
     <Button>Friends</Button>
     <Button>Education</Button>
     <Button>Entertainment</Button>
-
-    
+    <Footer/>
 
 
 
