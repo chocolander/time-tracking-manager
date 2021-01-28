@@ -23,7 +23,7 @@ export const WorkBtn = ({
     const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0]
 
     return (
-       <button className={`wrokBtn ${checkButtonStyle} ${checkButtonSize}`} onClick={onClick}
+       <button className={`workBtn ${checkButtonStyle} ${checkButtonSize}`} onClick={onClick}
        type={type}>
            {children}
        </button>

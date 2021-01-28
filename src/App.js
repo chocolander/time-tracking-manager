@@ -1,8 +1,8 @@
 import React from 'react'; 
 import './App.css';
 import { Button } from './components/classesLogginButtons/Button';
-import { HealthBtn } from './components/classesLogginButtons/HealthBtn';
-import { WorkBtn } from './components/classesLogginButtons/WorkBtn'
+import { HealthBtn } from './components/classesLogginButtons/itemButtons/HealthBtn';
+import { WorkBtn } from './components/classesLogginButtons/itemButtons/WorkBtn';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 

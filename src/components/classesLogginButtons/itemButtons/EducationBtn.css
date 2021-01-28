@@ -11,10 +11,10 @@
     border-radius: 50%;
     font-weight: bold;
     border: 4px solid #5af745;
-    width: 10%
-    }
+    width: 10%;
+}
   
-    .educationBtn:hover {
-      background-color: #5af745;
-      color: white;
-    }
+.educationBtn:hover {
+    background-color: #5af745;
+    color: white;
+}
