@@ -1,22 +1,31 @@
 import React from 'react'; 
 import './App.css';
 import { Button } from './components/classesLogginButtons/Button';
-import { HealthBtn } from './components/classesLogginButtons/HealthBtn';
-import {WorkBtn} from './components/classesLogginButtons/WorkBtn'
+import { HealthBtn } from './components/classesLogginButtons/itemButtons/HealthBtn';
+import { WorkBtn } from './components/classesLogginButtons/itemButtons/WorkBtn';
+import { HobbyBtn } from './components/classesLogginButtons/itemButtons/HobbyBtn';
+import { FamilyBtn } from './components/classesLogginButtons/itemButtons/FamilyBtn';
+import { RoutineBtn } from './components/classesLogginButtons/itemButtons/RoutineBtn';
+import { FriendBtn } from './components/classesLogginButtons/itemButtons/FriendBtn';
+import { EducationBtn } from './components/classesLogginButtons/itemButtons/EducationBtn';
+import { EntertainmentBtn } from './components/classesLogginButtons/itemButtons/EntertainmentBtn';
+
 import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
     <div className="App">
     <Navbar/>
+
     <WorkBtn>Work</WorkBtn>
-    <HealthBtn class="healthbtn">Health</HealthBtn>
-    <Button>Hobby</Button>
-    <Button>Family</Button>
-    <Button>Routine</Button>
-    <Button>Friends</Button>
-    <Button>Education</Button>
-    <Button>Entertainment</Button>
+    <HealthBtn>Health</HealthBtn>
+    <HobbyBtn>Hobby</HobbyBtn>
+    <FamilyBtn>Family</FamilyBtn>
+    <RoutineBtn>Routine</RoutineBtn>
+    <FriendBtn>Friend</FriendBtn>
+    <EducationBtn>Education</EducationBtn>
+    <EntertainmentBtn>Entertainment</EntertainmentBtn>
+    
     
 
 

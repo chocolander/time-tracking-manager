@@ -1,9 +1,8 @@
 import React from 'react'
-import './HealthBtn.css'
+import './FamilyBtn.css'
 
 const STYLES = [
-    'btn--primary',
-    'btn--outline'
+    'familyBtn'
 ]
 
 const SIZES = [
@@ -11,7 +10,7 @@ const SIZES = [
     'btn--large'
 ]
 
-export const HealthBtn = ({
+export const FamilyBtn = ({
     children,
     type,
     onClick,
@@ -24,7 +23,7 @@ export const HealthBtn = ({
     const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0]
 
     return (
-       <button className={`btn ${checkButtonStyle} ${checkButtonSize}`} onClick={onClick}
+       <button className={`familyBtn ${checkButtonStyle} ${checkButtonSize}`} onClick={onClick}
        type={type}>
            {children}
        </button>

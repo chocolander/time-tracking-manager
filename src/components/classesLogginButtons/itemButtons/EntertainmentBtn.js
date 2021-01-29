@@ -1,9 +1,8 @@
 import React from 'react'
-import './WorkBtn.css'
+import './EntertainmentBtn.css'
 
 const STYLES = [
-    'btn--primary',
-    'btn--outline'
+    'entertainmentBtn'
 ]
 
 const SIZES = [
@@ -11,7 +10,7 @@ const SIZES = [
     'btn--large'
 ]
 
-export const WorkBtn = ({
+export const EntertainmentBtn = ({
     children,
     type,
     onClick,
@@ -24,7 +23,7 @@ export const WorkBtn = ({
     const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0]
 
     return (
-       <button className={`btn ${checkButtonStyle} ${checkButtonSize}`} onClick={onClick}
+       <button className={`entertainmentBtn ${checkButtonStyle} ${checkButtonSize}`} onClick={onClick}
        type={type}>
            {children}
        </button>
