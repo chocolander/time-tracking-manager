@@ -4,5 +4,6 @@ class Category {
         this.preferredTimeblock=preferredTimeblock;
     }
     getName(){return this.cName};
-    
+    getCategory(){return this.category};
+        
 }
