@@ -16,7 +16,8 @@ function App() {
   return (
     <div className="App">
     <Navbar/>
-
+    
+    <div style = {{ display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 10}}>
     <WorkBtn>Work</WorkBtn>
     <HealthBtn>Health</HealthBtn>
     <HobbyBtn>Hobby</HobbyBtn>
@@ -25,6 +26,8 @@ function App() {
     <FriendBtn>Friend</FriendBtn>
     <EducationBtn>Education</EducationBtn>
     <EntertainmentBtn>Entertainment</EntertainmentBtn>
+    </div>
+    
     
     
 
