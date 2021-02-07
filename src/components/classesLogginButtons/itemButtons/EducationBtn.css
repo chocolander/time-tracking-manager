@@ -15,8 +15,9 @@
     width: 10%;
     
     }
+
   
-    .educationBtn:hover {
-      background-color: #5af745;
-      color: white;
-    }
+.educationBtn:hover {
+    background-color: #5af745;
+    color: white;
+}

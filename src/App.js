@@ -3,19 +3,15 @@ import './App.css';
 import { Button } from './components/classesLogginButtons/Button';
 import { HealthBtn } from './components/classesLogginButtons/itemButtons/HealthBtn';
 import { WorkBtn } from './components/classesLogginButtons/itemButtons/WorkBtn';
-import { HobbyBtn } from './components/classesLogginButtons/itemButtons/HobbyBtn';
-import { FamilyBtn } from './components/classesLogginButtons/itemButtons/FamilyBtn';
-import { RoutineBtn } from './components/classesLogginButtons/itemButtons/RoutineBtn';
-import { FriendBtn } from './components/classesLogginButtons/itemButtons/FriendBtn';
-import { EducationBtn } from './components/classesLogginButtons/itemButtons/EducationBtn';
-import { EntertainmentBtn } from './components/classesLogginButtons/itemButtons/EntertainmentBtn';
-
 import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
+
 
 function App() {
   return (
     <div className="App">
     <Navbar/>
+
     
     <div style = {{ display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 10}}>
     <WorkBtn>Work</WorkBtn>
@@ -27,10 +23,6 @@ function App() {
     <EducationBtn>Education</EducationBtn>
     <EntertainmentBtn>Entertainment</EntertainmentBtn>
     </div>
-    
-    
-    
-
 
 
     </div>
