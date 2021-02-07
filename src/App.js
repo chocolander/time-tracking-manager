@@ -5,6 +5,7 @@ import { HealthBtn } from './components/classesLogginButtons/itemButtons/HealthB
 import { WorkBtn } from './components/classesLogginButtons/itemButtons/WorkBtn';
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer';
+import DayTable from './components/Tables/DayTable'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
     <Button>Friends</Button>
     <Button>Education</Button>
     <Button>Entertainment</Button>
+    <DayTable/>
     </div>
     <Footer/>
     </div>
