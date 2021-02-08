@@ -4,7 +4,7 @@ import './DayTable.css'
 class DayTable extends Component {
     render() {
         return (
-
+            <div className="filter">
                 <table>
                     <tr>
                         <th>#</th>
@@ -48,7 +48,8 @@ class DayTable extends Component {
 
 
                 </table>
-
+                
+            </div>
         )
     }
 }
