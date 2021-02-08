@@ -6,8 +6,8 @@ import { WorkBtn } from './components/classesLogginButtons/itemButtons/WorkBtn';
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer';
 import DayTable from './components/Tables/DayTable'
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
 
@@ -23,9 +23,11 @@ function App() {
     <Button>Education</Button>
     <Button>Entertainment</Button>
     <DayTable/>
-    </div>
+    </div>    
+    
     <Footer/>
     </div>
+
 
   );
 }
