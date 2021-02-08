@@ -12,8 +12,8 @@ import { EntertainmentBtn } from './components/classesLogginButtons/itemButtons/
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer';
 import DayTable from './components/Tables/DayTable'
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
 
@@ -30,13 +30,16 @@ function App() {
     <FriendBtn>Friends</FriendBtn>
     <EducationBtn>Education</EducationBtn>
     <EntertainmentBtn>Entertainment</EntertainmentBtn>
-      
     </div>
-  
+    
+    <DayTable>
+
+    </DayTable>
   
     </div>
     <Footer/>
     </div>
+
 
   );
 }
