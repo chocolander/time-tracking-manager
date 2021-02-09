@@ -1,6 +1,5 @@
 import React from 'react'; 
 import './App.css';
-import { Button } from './components/classesLogginButtons/Button';
 import { HealthBtn } from './components/classesLogginButtons/itemButtons/HealthBtn';
 import { WorkBtn } from './components/classesLogginButtons/itemButtons/WorkBtn';
 import { HobbyBtn } from './components/classesLogginButtons/itemButtons/HobbyBtn'
