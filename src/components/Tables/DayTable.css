@@ -33,6 +33,12 @@ table {
     text-align: center; 
 }
 
+h2 {
+    position: absolute; 
+    left: 50%;
+    top: 33%;
+    transform: translate(-50%, -50%);
+}
 th, td {
     padding: 12px 15px; 
 }

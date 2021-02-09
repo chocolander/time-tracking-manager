@@ -5,6 +5,7 @@ class DayTable extends Component {
     render() {
         return (
             <div className="filter">
+                <h2>Daily Schedule</h2>
                 <table>
                     <tr>
                         <th>#</th>
