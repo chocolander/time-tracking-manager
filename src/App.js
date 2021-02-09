@@ -3,6 +3,12 @@ import './App.css';
 import { Button } from './components/classesLogginButtons/Button';
 import { HealthBtn } from './components/classesLogginButtons/itemButtons/HealthBtn';
 import { WorkBtn } from './components/classesLogginButtons/itemButtons/WorkBtn';
+import { HobbyBtn } from './components/classesLogginButtons/itemButtons/HobbyBtn'
+import { FamilyBtn } from './components/classesLogginButtons/itemButtons/FamilyBtn'
+import { RoutineBtn } from './components/classesLogginButtons/itemButtons/RoutineBtn'
+import { FriendBtn } from './components/classesLogginButtons/itemButtons/FriendBtn'
+import { EducationBtn } from './components/classesLogginButtons/itemButtons/EducationBtn'
+import { EntertainmentBtn } from './components/classesLogginButtons/itemButtons/EntertainmentBtn'
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer';
 import DayTable from './components/Tables/DayTable'
@@ -14,17 +20,23 @@ function App() {
     <div className="page-container">
     <div className="content-wrap">
     <Header/>
+
+    <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', padding: 15}}>
     <WorkBtn>Work</WorkBtn>
-    <HealthBtn class="healthbtn">Health</HealthBtn>
-    <Button>Hobby</Button>
-    <Button>Family</Button>
-    <Button>Routine</Button>
-    <Button>Friends</Button>
-    <Button>Education</Button>
-    <Button>Entertainment</Button>
-    <DayTable/>
-    </div>    
+    <HealthBtn>Health</HealthBtn>
+    <HobbyBtn>Hobby</HobbyBtn>
+    <FamilyBtn>Family</FamilyBtn>
+    <RoutineBtn>Routine</RoutineBtn>
+    <FriendBtn>Friends</FriendBtn>
+    <EducationBtn>Education</EducationBtn>
+    <EntertainmentBtn>Entertainment</EntertainmentBtn>
+    </div>
     
+    <DayTable>
+
+    </DayTable>
+  
+    </div>
     <Footer/>
     </div>
 

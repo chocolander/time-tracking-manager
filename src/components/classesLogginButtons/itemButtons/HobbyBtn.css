@@ -1,7 +1,7 @@
 .hobbyBtn {
-    background-color: white;
+    background-color: #8108f3;
     border: none;
-    color: black;
+    color: white;
     padding: 5px 15px;
     text-align: center;
     text-decoration: none;
@@ -10,13 +10,12 @@
     transition: 0.4s;
     border-radius: 5px;
     font-weight: bold;
-    border: 4px solid #8108f3;
     width: 10%;
     box-shadow: 0px 2px 2px lightgray;
   
     }
   
     .hobbyBtn:hover {
-      background-color:#8108f3;
+      background-color:#8108f385;
       color: white;
     }
