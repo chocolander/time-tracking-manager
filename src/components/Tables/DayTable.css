@@ -35,6 +35,8 @@ table {
 
 h2 {
     position: absolute; 
+    color: black;
+    text-decoration: underline;
     left: 50%;
     top: 33%;
     transform: translate(-50%, -50%);
