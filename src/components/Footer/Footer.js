@@ -18,7 +18,7 @@ class Footer extends Component {
 
                         {/* Column 2 */}
                         <div className="col">
-                            <h4>STAFF</h4>
+                            <h4>Team Members</h4>
                             <ul className="list-unstyled">
                                 <li>Elena Sakhnovitch</li>
                                 <li>Hyun Seong Lee</li>
