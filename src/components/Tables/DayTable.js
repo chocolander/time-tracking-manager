@@ -20,8 +20,12 @@ const Button = styled.button`
     border-radius: 5px; 
     outline: 0;
     cursor: pointer;
+    position: relative;
+    top: 445px;
+    left: 35px;
+    width: 765px;
     box-shadow: 0px 2px 2px lightgray; 
-    transition: ease background-color 250ms;    
+    transition: ease background-color 250ms; 
     &:hover {
         background-color: ${props => theme[props.theme].hover};
     }
@@ -33,19 +37,18 @@ Button.defaultProps = {
 
 function clickMe() {
     alert('Add new schedule functionality!');
+    <p>Hello! </p>
 }
 
 class DayTable extends Component {
     render() {
-        return (
+        return (            
             <div className="filter">
-                <h2>Daily Schedule</h2>
-                <Button theme="pink" onClick={clickMe}>Add Task +</Button>            
+                    <Button onClick={clickMe}>Add New Task +</Button> 
                 <table>
                     <tr>
                         <th>#</th>
                         <th>Task</th>
-                        <th>Length</th>
                         <th>Allocated time</th>
                         <th>Category</th>
                         <th>Mark Complete</th>
@@ -54,7 +57,6 @@ class DayTable extends Component {
                     <tr>
                         <td>1</td>
                         <td>Task</td>
-                        <td>Length</td>
                         <td>Allocated time</td>
                         <td>Category</td>
                         <td>Mark Complete</td>
@@ -63,7 +65,6 @@ class DayTable extends Component {
                     <tr>
                         <td>2</td>
                         <td>Task</td>
-                        <td>Length</td>
                         <td>Allocated time</td>
                         <td>Category</td>
                         <td>Mark Complete</td>
@@ -72,7 +73,6 @@ class DayTable extends Component {
                     <tr>
                         <td>3</td>
                         <td>Task</td>
-                        <td>Length</td>
                         <td>Allocated time</td>
                         <td>Category</td>
                         <td>Mark Complete</td>
@@ -81,13 +81,10 @@ class DayTable extends Component {
                     <tr>
                         <td>4</td>
                         <td>Task</td>
-                        <td>Length</td>
                         <td>Allocated time</td>
                         <td>Category</td>
                         <td>Mark Complete</td>
-                    </tr>
-
-
+                    </tr>                
                 </table>
                 
             </div>
