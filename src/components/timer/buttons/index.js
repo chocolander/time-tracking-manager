@@ -10,7 +10,7 @@ export default function TimerButtons(props){
 
         <div className='buttons'>
             <button>
-                {"|   work |"}
+                {"Productive"}
             </button>
 
             <button
