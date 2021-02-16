@@ -11,9 +11,19 @@ import { EntertainmentBtn } from './components/classesLogginButtons/itemButtons/
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer';
 import DayTable from './components/Tables/DayTable'
-
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import TodoBoard from './components/Board/ToDoBoard';
+
+
+
+
+
 function App() {
+  
+
+ 
+        
+
   return (
 
     <div className="page-container">
@@ -30,6 +40,14 @@ function App() {
     <EducationBtn>Education</EducationBtn>
     <EntertainmentBtn>Entertainment</EntertainmentBtn>
     </div>
+
+    <div className = 'todo-app'>
+
+      <TodoBoard />
+
+    </div>
+  
+
     
     <DayTable>
 
