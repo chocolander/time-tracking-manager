@@ -11,6 +11,7 @@ import { EntertainmentBtn } from './components/classesLogginButtons/itemButtons/
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer';
 import DayTable from './components/Tables/DayTable'
+import Timer from './components/timer'
 
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 function App() {
@@ -35,6 +36,10 @@ function App() {
 
     </DayTable>
   
+    <div>
+      <Timer />
+    </div>
+
     </div>
     <Footer/>
     </div>
